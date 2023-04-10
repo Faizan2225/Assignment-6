@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Test</title>
+		<link rel="stylesheet" href="/style/style.css" />
+	</head>
+	<body>
+		<!-- mian body starts -->
+		<main>
+			<!-- left section starts -->
+			<section id="left-section">
+				<div id="left-section-top">
+					<div id="left-section-play-button" onclick="handlePlayButtonClick()">
+						<img src="/assets/img/play.ico" alt="play-icon" />
+					</div>
+					<div id="left-section-top-text">
+						<h1>In the Trends</h1>
+						<p>Taste the experience of discovering unseen places</p>
+					</div>
+					<div id="left-section-top-block"></div>
+				</div>
+			</section>
+			<!-- left section ends -->
+			<!-- right section starts -->
+			<section id="right-section">
+				<!-- slider starts -->
+				<div class="slider-container">
+					<div class="indicators">
+						<span class="indicator" data-slide="0"></span>
+						<span class="indicator" data-slide="1"></span>
+						<span class="indicator" data-slide="2"></span>
+					</div>
+					<div class="slider">
+						<div class="slide">
+							<img src="./assets/img/s1.jpg" alt="Image 1" />
+							<div class="slide-content">
+								<div class="rating">
+									<h3>4.5</h3>
+									<img src="./assets/img/star.png" alt="" />
+								</div>
+								<div class="text">
+									<h1>Slide 1</h1>
+									<h3>Description 1</h3>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<img src="./assets/img/s2.jpg" alt="Image 2" />
+							<div class="slide-content">
+								<div class="rating">
+									<h3>4.3</h3>
+									<img src="./assets/img/star.png" alt="" />
+								</div>
+								<div class="text">
+									<h1>Slide 2</h1>
+									<h3>Description 2</h3>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<img src="./assets/img/s3.jpg" alt="Image 3" />
+							<div class="slide-content">
+								<div class="rating">
+									<h3>4</h3>
+									<img src="./assets/img/star.png" alt="" />
+								</div>
+								<div class="text">
+									<h1>Slide 3</h1>
+									<h3>Description 3</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- slider ends -->
+				<a class="slider-button" id="slider-button" href="link-1">
+					<h3>Show More</h3>
+					<img src="./assets/img/arrow.png" alt="show more" />
+				</a>
+				<div class="slide-down-btn"></div>
+			</section>
+			<!-- right section ends -->
+		</main>
+		<!-- mian body ends -->
+	</body>
+	<script src="/Js/app.js"></script>
+</html>
